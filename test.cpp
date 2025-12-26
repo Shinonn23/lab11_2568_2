@@ -61,7 +61,7 @@ int main(){
 	}while(!(playerAction == 1 || playerAction == 2)); //This line of code is not completed. You need to set the condition to do loop if user's input is not 1 or 2. 
 	if(playerAction == 1){
 		//The following lines of code are not completed. Please correct it.
-		playerCards[3] = drawCard();
+		playerCards[2] = drawCard();
         playerScore = calScore(playerCards[0],playerCards[1],playerCards[2]);
 		cout << "Player draws the 3rd card!!!" << "\n";
 		cout << "Your 3rd card: " << cardNames[playerCards[2]] << "\n";
@@ -77,7 +77,7 @@ int main(){
 	cout << "Yugi's score: " << yugiScore << "\n";
 	yugiAction = findYugiAction(yugiScore);
 	if(yugiAction == 1){
-	    yugiCards[3] = drawCard();
+	    yugiCards[2] = drawCard();
         yugiScore = calScore(yugiCards[0],yugiCards[1],yugiCards[2]);
 		cout << "Yugi draws the 3rd card!!!\n";
 		cout << "Yugi's 3rd card: " << cardNames[yugiCards[2]] << "\n";
