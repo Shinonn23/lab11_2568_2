@@ -1,2 +1,13 @@
-// cout << "Press Enter 3 times to reveal your future.";
-// cout << "You will get A in this 261102.";
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << ""
+    for (int i = 0; i < 3; i++) {
+        cin; 
+    }
+
+
+    return 0;
+}
